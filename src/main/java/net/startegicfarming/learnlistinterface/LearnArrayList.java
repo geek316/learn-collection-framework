@@ -76,8 +76,6 @@ public class LearnArrayList {
 
 
 
-
-
         System.out.println("Using constructor");
         ArrayList<String> list2 = new ArrayList<>(100);
         list2.add("Banana");
@@ -123,10 +121,7 @@ public class LearnArrayList {
 //        }
 
         // Not working on Java 25
-
-
     }
-
 }
 
 class MyComparator implements Comparator<Integer> {
