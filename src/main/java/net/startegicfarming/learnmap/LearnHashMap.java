@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class learnhashmap {
+public class LearnHashMap {
     static void main() {
         HashMap<Integer, String> map = new HashMap<>();
         map.put(null, "zero");
