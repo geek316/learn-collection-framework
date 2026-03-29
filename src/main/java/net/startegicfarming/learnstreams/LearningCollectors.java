@@ -4,6 +4,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 public class LearningCollectors {
+    public LearningCollectors() {
+    }
+
     static void main() {
         // Collectors is a utility class
         // provides a set of methods to create common collectors.
@@ -61,9 +64,38 @@ public class LearningCollectors {
         // Applies a mapping function before collecting
         System.out.println(words.stream().collect(Collectors.mapping(x -> x.toUpperCase(), Collectors.toList())));
 
+        // Example 1: Collecting names by length
+        System.out.println("Example Questions");
+        List<String> friendsList = Arrays.asList("Summi", "Hemant", "Mukesh", "Anshal", "Neel", "Subhadeep");
+        System.out.println(friendsList.stream().collect(Collectors.groupingBy(String::length)));
+        System.out.println(friendsList.stream().collect(Collectors.groupingBy(String::length, Collectors.counting())));
 
+        // Example 2: counting word occurrences
+        String sentence = "Hello world hello java world";
+        System.out.println(Arrays.stream(sentence.split(" ")).collect(Collectors.groupingBy(x -> x, Collectors.counting())));
 
+        // Example 3: Partitioning even and odd numbers
+        List<Integer> allNums = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12);
+        Map<Boolean, List<Integer>> evenOddMap = allNums.stream().collect(Collectors.partitioningBy(x -> x % 2 == 0));
+        System.out.println("Even from list : " + evenOddMap.get(true));
+        System.out.println("Odd from list : " + evenOddMap.get(false));
 
+        // Example 4: Summing values in a map
+        HashMap<String, Integer> items = new HashMap<>();
+        items.put("Apple", 10);
+        items.put("Banana", 20);
+        items.put("Orange", 30);
+        System.out.println(items.values().stream().reduce(Integer::sum).get());
+        System.out.println(items.values().stream().collect(Collectors.summingInt(x -> x)));
+
+        // Example 5: Creating a map from stream elements, based on length as value.
+        List<String> fruitList = Arrays.asList("Apple", "Banana", "Cherry");
+        System.out.println(fruitList.stream().collect(Collectors.toMap(x -> x.toUpperCase(), x -> x.length())));
+
+        // Example 6:
+        List<String> stringList = Arrays.asList("apple", "banana", "apple", "orange", "banana", "apple");
+        System.out.println(stringList.stream().collect(Collectors.groupingBy(x -> x, Collectors.counting())));
+        System.out.println(stringList.stream().collect(Collectors.toMap(k -> k, v -> 1, (x, y) -> x + y)));
 
     }
 }
