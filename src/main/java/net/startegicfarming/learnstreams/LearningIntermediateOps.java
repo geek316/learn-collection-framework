@@ -48,7 +48,11 @@ public class LearningIntermediateOps {
                 Arrays.asList("Litchi", "Bihar"),
                 Arrays.asList("Coconut", "Kerala")
         );
-        System.out.println(listOfList.stream().flatMap(x -> x.stream()).map(String::toUpperCase).toList());
+        System.out.println(listOfList
+                .stream()
+                .flatMap(x -> x.stream())
+                .map(String::toUpperCase)
+                .toList());
 
         // Another Example
         List<String> sentences = Arrays.asList(

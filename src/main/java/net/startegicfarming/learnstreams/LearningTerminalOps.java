@@ -47,6 +47,13 @@ public class LearningTerminalOps {
         System.out.println(Stream.of(2,5,4).max(Comparator.naturalOrder()).get());
         System.out.println(Stream.of(2,5,4).min(Comparator.naturalOrder()).get());
 
+        // 9. forEachOrdered
+        List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        System.out.println("Using forEach with parallel stream: ");
+        numbers.parallelStream().forEach(System.out::println);
+        System.out.println("Using forEachOrdered with parallel stream: ");
+        numbers.parallelStream().forEachOrdered(System.out::println);
+
 
         // Examples : Filtering and collecting names
         List<String> names = Arrays.asList("Summi", "Hemant", "Mukesh", "Anshal", "Neel");
@@ -65,6 +72,11 @@ public class LearningTerminalOps {
         // Example : Counting occurrence of character.
         String sentence = "Hello World";
         System.out.println(sentence.chars().filter(x -> x == 'l').count());
+
+        // Example : Streams cannot be resued after a terminal operation has been called.
+        Stream<String> stream = names.stream();
+        stream.forEach(System.out::println);
+//        stream.map(String::toUpperCase).toList(); // Exception : stream has already been operated upon or closed
 
         // stateful & stateless operations
 
