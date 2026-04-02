@@ -3,7 +3,7 @@ package net.startegicfarming.problems.listinterface.arraylist;
 import java.util.ArrayList;
 
 public class ResizeCapacity {
-    static void main() {
+    public static void main(String[] args) {
 
         System.out.println("Checking performance of arraylist when resizing with and without initializing capacity.");
         ArrayList<Integer> resizeArray = new ArrayList<>();

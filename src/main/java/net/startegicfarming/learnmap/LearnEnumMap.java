@@ -14,7 +14,7 @@ enum Day {
 }
 
 public class LearnEnumMap {
-    static void main() {
+    public static void main(String[] args) {
 
         // array of size same as enum
         // ["Walking","Gym,_,_,_,_,_]

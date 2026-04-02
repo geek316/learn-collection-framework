@@ -6,7 +6,7 @@ package net.startegicfarming.problems.listinterface.stack;
 import java.util.Stack;
 
 public class EvaluatePostfixExpression {
-    static void main() {
+    public static void main(String[] args) {
 
         String exp = "23*54*+9-";
         System.out.println("Result for : " +exp+ " is : "+ evaluate(exp));

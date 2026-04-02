@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Vector;
 
 public class VectorVsArrayListSynchronous {
-    static void main() throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException {
 
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> vector = new Vector<>();

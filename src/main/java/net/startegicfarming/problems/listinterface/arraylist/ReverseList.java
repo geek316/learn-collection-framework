@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ReverseList {
-    static void main() {
+    public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>(List.of(1,3,5,7,9,11,13,15));
         System.out.println("List Reversal");

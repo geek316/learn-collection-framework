@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class LearningCopyOnWriteArrayList {
-    static void main() {
+    public static void main(String[] args) {
         CopyOnWriteArrayList<Integer> list = new CopyOnWriteArrayList<>();
         list.add(1);
         list.add(2);

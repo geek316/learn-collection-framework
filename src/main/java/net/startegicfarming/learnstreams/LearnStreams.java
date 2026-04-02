@@ -7,7 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class LearnStreams {
-    static void main() {
+    public static void main(String[] args) {
         // Steams
         // feature introduced in JAVA 8
         // process collections of data in a functional and declarative manner.

@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class MinStack {
 
-    static void main() {
+    public static void main(String[] args) {
 
         MinSingleStack ms = new MinSingleStack();
 

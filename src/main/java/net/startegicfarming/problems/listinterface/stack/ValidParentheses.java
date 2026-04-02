@@ -3,7 +3,7 @@ package net.startegicfarming.problems.listinterface.stack;
 import java.util.Stack;
 
 public class ValidParentheses {
-    static void main() {
+    public static void main(String[] args) {
 
         System.out.println("Checking for valid parentheses.");
         String parenth1 = "({[]}){()}";

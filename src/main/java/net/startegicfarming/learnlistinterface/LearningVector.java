@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Vector;
 
 public class LearningVector {
-    static void main() {
+    public static void main(String[] args) {
         Vector<Integer> vector = new Vector<>(5, 3);
         System.out.println("Capacity of vector : " + vector.capacity());
         vector.add(1);

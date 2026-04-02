@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LearnImmutableMap {
-    static void main() {
+    public static void main(String[] args) {
 
         Map<Integer, String> map1 = new HashMap<>();
         map1.put(1, "Summi");

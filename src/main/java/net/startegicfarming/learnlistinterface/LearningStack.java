@@ -3,7 +3,7 @@ package net.startegicfarming.learnlistinterface;
 import java.util.Stack;
 
 public class LearningStack {
-    static void main() {
+    public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         stack.push(1);
         stack.push(2);

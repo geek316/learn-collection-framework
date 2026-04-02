@@ -6,7 +6,7 @@ import java.util.function.*;
 import java.util.stream.Collectors;
 
 public class LearningJava8 {
-    static void main() {
+    public static void main(String[] args) {
 
         // Java 8 - minimal code, functional programming.
         // Java 8 - lambda expression, Streams, Date & Time API

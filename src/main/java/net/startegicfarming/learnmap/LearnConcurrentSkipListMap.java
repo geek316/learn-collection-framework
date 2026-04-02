@@ -3,7 +3,7 @@ package net.startegicfarming.learnmap;
 import java.util.concurrent.ConcurrentSkipListMap;
 
 public class LearnConcurrentSkipListMap {
-    static void main() {
+    public static void main(String[] args) {
 
         // probabilistic data structure
         // similar to sorted linked list but with multiple layers

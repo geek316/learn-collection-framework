@@ -3,7 +3,7 @@ package net.startegicfarming.problems.listinterface.arraylist;
 import java.util.ArrayList;
 
 public class CrudOperation {
-    static void main() {
+    public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
         System.out.println("Created arraylist of Integer : " + list);

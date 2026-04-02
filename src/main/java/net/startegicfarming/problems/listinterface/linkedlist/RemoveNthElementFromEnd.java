@@ -1,7 +1,7 @@
 package net.startegicfarming.problems.listinterface.linkedlist;
 
 public class RemoveNthElementFromEnd {
-    static void main() {
+    public static void main(String[] args) {
 
         System.out.println("Remove Nth Element from end");
 

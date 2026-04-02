@@ -6,7 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Stream;
 
 public class LearnParallelStream {
-    static void main() {
+    public static void main(String[] args) {
         // A type of stream that enables parallel processing of elements.
         // Allowing multiple threads to process parts of the stream simultaneously.
         // This can significantly improve performance for large data sets

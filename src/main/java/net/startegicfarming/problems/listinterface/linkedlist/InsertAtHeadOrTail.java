@@ -3,7 +3,7 @@ package net.startegicfarming.problems.listinterface.linkedlist;
 import java.util.LinkedList;
 
 public class InsertAtHeadOrTail {
-    static void main() {
+    public static void main(String[] args) {
 
         LinkedList<Integer> list = new LinkedList<>();
         System.out.println("LinkedList Created : " + list);

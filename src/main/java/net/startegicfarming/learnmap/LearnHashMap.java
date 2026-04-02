@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class LearnHashMap {
-    static void main() {
+    public static void main(String[] args) {
         HashMap<Integer, String> map = new HashMap<>();
         map.put(null, "zero");
         map.put(1, "Only one");

@@ -5,7 +5,7 @@ import java.util.SortedMap;
 import java.util.TreeMap;
 
 public class LearnTreeMap {
-    static void main() {
+    public static void main(String[] args) {
 
         SortedMap<String, Integer> map = new TreeMap();
         map.put("Summi", 99);

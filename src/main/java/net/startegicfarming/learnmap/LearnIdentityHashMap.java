@@ -4,7 +4,7 @@ import java.util.IdentityHashMap;
 import java.util.Map;
 
 public class LearnIdentityHashMap {
-    static void main() {
+    public static void main(String[] args) {
 
         String key1 = new String("key");
         String key2 = new String("key");

@@ -1,7 +1,7 @@
 package net.startegicfarming.problems.listinterface.linkedlist;
 
 public class FloydCycleDetection {
-    static void main() {
+    public static void main(String[] args) {
 
         Node head = new Node(1);
         head.next = new Node(2);

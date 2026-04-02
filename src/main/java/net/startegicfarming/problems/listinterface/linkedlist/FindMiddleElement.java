@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class FindMiddleElement {
-    static void main() {
+    public static void main(String[] args) {
 
         LinkedList<Integer> linkList = new LinkedList<>(List.of(1,2,3,4,5,6));
         System.out.println("Finding Middle Element for LinkedList : " + linkList);

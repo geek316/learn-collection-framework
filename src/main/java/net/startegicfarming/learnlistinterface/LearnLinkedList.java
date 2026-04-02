@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 public class LearnLinkedList {
-    static void main() {
+    public static void main(String[] args) {
         Node node1 = new Node();
         Node node2 = new Node();
         node1.value = 1;

@@ -3,7 +3,7 @@ package net.startegicfarming.problems.listinterface.stack;
 import java.util.Stack;
 
 public class ReverseString {
-    static void main() {
+    public static void main(String[] args) {
 
         Stack<Character> stack = new Stack<>();
         StringBuilder result = new StringBuilder();

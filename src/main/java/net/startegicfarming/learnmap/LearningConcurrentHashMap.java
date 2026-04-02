@@ -3,7 +3,7 @@ package net.startegicfarming.learnmap;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class LearningConcurrentHashMap {
-    static void main() {
+    public static void main(String[] args) {
 
         ConcurrentHashMap<Integer, String> map = new ConcurrentHashMap<>();
         // Java 7 -> segment based locking -> 16 segments -> smaller hashmaps

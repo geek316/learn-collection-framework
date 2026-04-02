@@ -7,7 +7,7 @@ public class LearningCollectors {
     public LearningCollectors() {
     }
 
-    static void main() {
+    public static void main(String[] args) {
         // Collectors is a utility class
         // provides a set of methods to create common collectors.
 

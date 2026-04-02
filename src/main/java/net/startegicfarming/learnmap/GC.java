@@ -3,7 +3,7 @@ package net.startegicfarming.learnmap;
 import java.lang.ref.WeakReference;
 
 public class GC {
-    static void main() {
+    public static void main(String[] args) {
         Phone phone1 = new Phone("Apple", "17 ProMax");
         System.out.println(phone1);
         phone1 = null;

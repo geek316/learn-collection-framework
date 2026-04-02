@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class LearningIntermediateOps {
-    static void main() {
+    public static void main(String[] args) {
 
         // Intermediate operations transform a stream into another stream
         // They are lazy, meaning they don't execute until a terminal operation is invoked.

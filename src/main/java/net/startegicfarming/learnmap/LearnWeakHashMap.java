@@ -3,7 +3,7 @@ package net.startegicfarming.learnmap;
 import java.util.WeakHashMap;
 
 public class LearnWeakHashMap {
-    static void main() {
+    public static void main(String[] args) {
         WeakHashMap<String, Image> imageCache = new WeakHashMap<>();
         imageCache.put(new String("img1"), new Image("Image 1"));
         imageCache.put(new String("img2"), new Image("Image 2"));

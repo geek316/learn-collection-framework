@@ -5,7 +5,7 @@ import java.util.Hashtable;
 import java.util.Map;
 
 public class LearnHashtable {
-    static void main() {
+    public static void main(String[] args) {
 
         Hashtable<Integer, String> hashtable = new Hashtable<>();
         // Hashtable is synchronized

@@ -1,7 +1,7 @@
 package net.startegicfarming.problems.listinterface.linkedlist;
 
 public class ReverseLinkedList {
-    static void main() {
+    public static void main(String[] args) {
 
         System.out.println("Reversing LinkedList");
         Node head = new Node(1);

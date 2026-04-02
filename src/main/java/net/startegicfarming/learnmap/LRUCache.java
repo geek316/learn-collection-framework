@@ -19,7 +19,7 @@ public class LRUCache<K, V> extends LinkedHashMap<K, V> {
         this.capacity = capacity;
     }
 
-    static void main() {
+    public static void main(String[] args) {
         LRUCache<String, Integer> studentMap = new LRUCache<>(3);
         studentMap.put("Summi", 99);
         studentMap.put("Ram", 100);

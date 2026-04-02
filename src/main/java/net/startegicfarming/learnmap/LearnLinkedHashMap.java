@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class LearnLinkedHashMap {
-    static void main() {
+    public static void main(String[] args) {
 
         LinkedHashMap<String, Integer> lhMap = new LinkedHashMap<>(11, 0.8f, true);
         lhMap.put("Orange", 10);

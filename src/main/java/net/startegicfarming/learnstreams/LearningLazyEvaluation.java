@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class LearningLazyEvaluation {
-    static void main() {
+    public static void main(String[] args) {
 
         List<String> names = Arrays.asList("Summi", "Hemant", "Mukesh", "Anshal", "Neel");
 

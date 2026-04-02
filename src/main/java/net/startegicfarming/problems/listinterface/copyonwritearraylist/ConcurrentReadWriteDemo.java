@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ConcurrentReadWriteDemo {
-    static void main() {
+    public static void main(String[] args) {
 
         System.out.println("ArrayList concurrent read and write.");
         List<Integer> list = new ArrayList<>();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SecondLargestNumber {
-    static void main() {
+    public static void main(String[] args) {
 
         System.out.println("Finding the second largest element in arraylist.");
         ArrayList<Integer> list4 = new ArrayList<>(List.of(1,2,3,4,99));

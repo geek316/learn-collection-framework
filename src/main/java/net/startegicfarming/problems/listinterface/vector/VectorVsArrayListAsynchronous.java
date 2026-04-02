@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Vector;
 
 public class VectorVsArrayListAsynchronous {
-    static void main() {
+    public static void main(String[] args) {
 
         int n = 1_000_000;
 
