@@ -62,7 +62,6 @@ public class LearnSet {
         set3.clear();
         System.out.println("Is set3 empty : " + set3.isEmpty());
 
-
         // For thread safety
         System.out.println("Thread safety : ");
         Set<Integer> set4 = Collections.synchronizedSet(set2); // Operations are blocking
