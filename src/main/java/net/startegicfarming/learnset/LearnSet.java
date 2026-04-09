@@ -55,7 +55,7 @@ public class LearnSet {
         System.out.println("Contains 1 : " + set3.contains(1));
         System.out.println("Remove 1 : " + set3.remove(1));
 
-        
+
         for(int i : set3) {
             System.out.println("Inside loop : " + i);
         }
