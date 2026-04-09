@@ -75,14 +75,11 @@ public class LearnSet {
             }
         }
 
-
         // UnmodifiableSet
         // We can input more than 10 elements, different from Map.of() in which we can input only input 10 elements.
         Set<Integer> set6 = Set.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15); // unmodifiable set
         System.out.println("set6 which is unmodifiable : " + set6);
         set6.remove(15); // This will throw UnsupportedOperationException
-
-
 
     }
 }
